@@ -1,6 +1,6 @@
 services:
   uptime-kuma:
-    image: .
+    build: .
     volumes:
       - ./data:/app/data
     ports:
